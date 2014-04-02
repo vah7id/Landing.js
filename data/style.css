@@ -1,0 +1,152 @@
+/**
+ * Landing.js v0.1.0
+ * https://github.com/vah7id/landing.js
+ * MIT licensed
+ *
+ * Copyright (C) 2014 Vahid Taghizadeh (@vah7id)
+ */
+
+body{
+  margin: 0;
+  font-family: 'Arvo', serif;
+  background:#000 url('bg.png') repeat;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+}
+
+#blur{
+  position: fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 110%;
+  height: 110%;
+  top: -5%;
+  left: -5%;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+#countdown{
+  margin-top: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+#countdown b{
+  font-size: 40px;
+}
+
+#countdown p{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  float: left;
+}
+
+form{
+  background: #fff;
+  height: 25px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 60%;
+  padding: 10px 10px 13px 5px;
+}
+
+input[type="text"]{
+  width: 60%;
+  display: inline-block;
+  border:none;
+  outline: 0;
+  font-family: 'Arvo', serif;
+  float: left;
+  height: 25px;
+  padding: 2px 15px 5px 15px;
+}
+
+input[type="submit"]{
+  width: 100px;
+  font-size: 17px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  background: #ffd742;
+  border: none;
+  outline: 0;
+  height: 25px;
+  padding: 8px 15px 26px 15px;
+  cursor: pointer;
+  margin-top: -3px;
+  float: right;
+}
+
+#copyright{
+  bottom: 0;
+  right: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 350px;
+  text-overflow:ellipsis;
+  position: fixed;
+  margin: 0 auto;
+  padding-top: 100px;
+  opacity: 0.3;
+}
+
+input[type="submit"]:hover{
+  opacity: 0.8;
+}
+
+h1{
+  line-height: 45px;
+  font-size: 48px;
+}
+h4{
+  margin-bottom: 80px;
+  margin-top: -25px;
+  font-weight: normal;
+  font-size: 23px;
+}
+#brief{
+  line-height: 22px;
+  width: 65%;
+  text-align: left;
+  padding-top: 20px;
+  text-shadow:0px 1px 2px #000;
+  margin: 0 auto;
+  opacity: 0.8;
+
+}
+#container{
+  position: relative;
+  padding-top: 20px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+  form,#brief{
+    width: 90% ;
+  }
+}
+
+@media (min-width: 0) and (max-width: 400px) {
+  form,#brief{
+    width: 90% ;
+  }
+  input[type="text"]{
+    width: 45%;
+  }
+
+  #copyright{
+    padding-top: 100px;
+  }
+}
