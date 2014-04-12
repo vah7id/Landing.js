@@ -31,23 +31,23 @@ Edit bottom part of script in index.php :
     </script>
       
 
-<b>Slide:</b> this property catch a boolian true and false for enable and disable slide wallpaper's in background.
-<b>countdown:</b> this property catch a boolian true and false for enable and disable countdown.
-<b>countdownTime:</b> this property catch a date time with DMY format for countdown finish time.
-<b>brand:</b> this property catch you'r brand or website title.
-<b>description:</b> this property catch you'r slogan.
-<b>brief:</b> this property catch you'r brief description of you'r website or application.
+<b>Slide:</b> this property catch a boolian true and false for enable and disable slide wallpaper's in background.<br />
+<b>countdown:</b> this property catch a boolian true and false for enable and disable countdown.<br />
+<b>countdownTime:</b> this property catch a date time with DMY format for countdown finish time.<br />
+<b>brand:</b> this property catch you'r brand or website title.<br />
+<b>description:</b> this property catch you'r slogan.<br />
+<b>brief:</b> this property catch you'r brief description of you'r website or application.<br />
 
 
 
 Demo
 ==============
 
-With slider in background:
-http://vah7id.com/project/Landingjs/demo1
+With slider in background:<br />
+http://vah7id.com/project/Landingjs/demo1<br />
 
-Without slider:
-http://vah7id.com/project/Landingjs/demo2
+Without slider:<br />
+http://vah7id.com/project/Landingjs/demo2<br />
 
 License
 ==============
