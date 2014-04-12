@@ -49,6 +49,8 @@ http://vah7id.com/project/Landingjs/demo1<br />
 Without slider:<br />
 http://vah7id.com/project/Landingjs/demo2<br />
 
+![alt tag](http://vah7id.com/project/Landingjs/demo-landing.jpg)
+
 License
 ==============
 
