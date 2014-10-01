@@ -6,7 +6,7 @@ Javascript library for create simple landing page with bing wallpaper's API.
 Requirements
 ==========
 
-Nothing :)
+PHP web server
 
 Usage
 ==========
